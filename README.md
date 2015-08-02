@@ -1,2 +1,2 @@
 # minispider
-test
+good coder pratice
