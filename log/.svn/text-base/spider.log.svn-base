@@ -1,0 +1,319 @@
+2015-11-24 13:45:13,754 - main - WARNING - W
+2015-11-24 13:45:13,755 - main - INFO - I
+2015-11-24 13:45:13,757 - main - ERROR - E
+2015-11-24 13:45:13,759 - main - CRITICAL - C
+2015-11-24 13:45:13,760 - main - DEBUG - D
+2015-11-24 13:45:13,870 - main - INFO - Namespace(config='spider.conf', v=False)
+2015-11-24 13:45:13,872 - main - INFO - config is :target_url : .*.(gif|png|jpg|bmp)$, thread_count : 5, crawl_timeout : 1, crawl_interval : 1, output : ./output, url_list_file : ./urls, max_depth : 15
+2015-11-24 13:45:13,873 - main - INFO - now starting spider~~~
+2015-11-24 13:45:13,877 - main - INFO - Thread-1 is starting
+2015-11-24 13:45:13,882 - main - INFO - threadid is :Thread-1 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081
+2015-11-24 13:45:13,883 - main - INFO - Thread-2 is starting
+2015-11-24 13:45:13,887 - main - INFO - Thread-3 is starting
+2015-11-24 13:45:13,889 - main - INFO - Thread-4 is starting
+2015-11-24 13:45:13,891 - main - INFO - Thread-5 is starting
+2015-11-24 13:45:14,171 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/page1.html
+2015-11-24 13:45:14,173 - main - INFO - threadid is :Thread-2 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081/page1.html
+2015-11-24 13:45:14,266 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/page2.html
+2015-11-24 13:45:14,269 - main - INFO - threadid is :Thread-3 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081/page2.html
+2015-11-24 13:45:14,274 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/page3.html
+2015-11-24 13:45:14,280 - main - INFO - threadid is :Thread-4 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081/page3.html
+2015-11-24 13:45:14,282 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/1/page1_4.html
+2015-11-24 13:45:14,289 - main - INFO - threadid is :Thread-5 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081/1/page1_4.html
+2015-11-24 13:45:14,293 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/page2_1.html
+2015-11-24 13:45:14,300 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/index.html
+2015-11-24 13:45:14,300 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/1/page1_1.html
+2015-11-24 13:45:14,305 - main - ERROR - url is : http://pycm.baidu.com:8081/1/page1_4.html Error code:404
+2015-11-24 13:45:14,308 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/index.html
+2015-11-24 13:45:14,316 - main - INFO - self.queue size == 3 , thread: Thread-5 is sleeping
+2015-11-24 13:45:14,318 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:14,319 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/1/page1_2.html
+2015-11-24 13:45:14,319 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/page4.html
+2015-11-24 13:45:14,323 - main - INFO - self.queue size == 6 , thread: Thread-1 is sleeping
+2015-11-24 13:45:14,327 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/1/page1_3.html
+2015-11-24 13:45:14,333 - main - INFO - self.queue size == 7 , thread: Thread-2 is sleeping
+2015-11-24 13:45:14,343 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/3/page3_1.html
+2015-11-24 13:45:14,349 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/3/page3_4.html
+2015-11-24 13:45:14,351 - main - INFO - self.queue size == 9 , thread: Thread-4 is sleeping
+2015-11-24 13:45:15,320 - main - INFO - threadid is :Thread-5 is working, self.queue size is :8 and the working url is http://pycm.baidu.com:8081/page2_1.html
+2015-11-24 13:45:15,322 - main - INFO - threadid is :Thread-3 is working, self.queue size is :7 and the working url is http://pycm.baidu.com:8081/mirror/index.html
+2015-11-24 13:45:15,325 - main - INFO - threadid is :Thread-1 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/1/page1_1.html
+2015-11-24 13:45:15,339 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:15,339 - main - INFO - self.queue size == 6 , thread: Thread-1 is sleeping
+2015-11-24 13:45:15,341 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/page1.html
+2015-11-24 13:45:15,343 - main - INFO - threadid is :Thread-2 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/index.html
+2015-11-24 13:45:15,348 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/page2.html
+2015-11-24 13:45:15,353 - main - INFO - threadid is :Thread-4 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/1/page1_2.html
+2015-11-24 13:45:15,357 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/page3.html
+2015-11-24 13:45:15,362 - main - INFO - self.queue size == 7 , thread: Thread-4 is sleeping
+2015-11-24 13:45:15,365 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/index.html
+2015-11-24 13:45:15,366 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/index.html
+2015-11-24 13:45:15,368 - main - INFO - self.queue size == 9 , thread: Thread-2 is sleeping
+2015-11-24 13:45:15,372 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/page4.html
+2015-11-24 13:45:15,373 - main - INFO - self.queue size == 10 , thread: Thread-3 is sleeping
+2015-11-24 13:45:16,343 - main - INFO - threadid is :Thread-5 is working, self.queue size is :9 and the working url is http://pycm.baidu.com:8081/page4.html
+2015-11-24 13:45:16,345 - main - INFO - threadid is :Thread-1 is working, self.queue size is :8 and the working url is http://pycm.baidu.com:8081/1/page1_3.html
+2015-11-24 13:45:16,353 - main - ERROR - url is : http://pycm.baidu.com:8081/1/page1_3.html Error code:404
+2015-11-24 13:45:16,353 - main - ERROR - url is : http://pycm.baidu.com:8081/page4.html Error code:404
+2015-11-24 13:45:16,358 - main - INFO - self.queue size == 8 , thread: Thread-1 is sleeping
+2015-11-24 13:45:16,358 - main - INFO - self.queue size == 8 , thread: Thread-5 is sleeping
+2015-11-24 13:45:16,364 - main - INFO - threadid is :Thread-4 is working, self.queue size is :7 and the working url is http://pycm.baidu.com:8081/3/page3_1.html
+2015-11-24 13:45:16,371 - main - INFO - threadid is :Thread-2 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/3/page3_4.html
+2015-11-24 13:45:16,379 - main - INFO - threadid is :Thread-3 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/page1.html
+2015-11-24 13:45:16,380 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/3/page3_2.html
+2015-11-24 13:45:16,382 - main - INFO - self.queue size == 6 , thread: Thread-4 is sleeping
+2015-11-24 13:45:16,385 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/3/image.jpg
+2015-11-24 13:45:16,389 - main - INFO - self.queue size == 7 , thread: Thread-2 is sleeping
+2015-11-24 13:45:16,414 - main - INFO - self.queue size == 7 , thread: Thread-3 is sleeping
+2015-11-24 13:45:17,361 - main - INFO - threadid is :Thread-1 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/page3.html
+2015-11-24 13:45:17,363 - main - INFO - threadid is :Thread-5 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/page2.html
+2015-11-24 13:45:17,385 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/index.html
+2015-11-24 13:45:17,396 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/2/3/index.html
+2015-11-24 13:45:17,406 - main - INFO - self.queue size == 3 , thread: Thread-5 is sleeping
+2015-11-24 13:45:17,407 - main - INFO - self.queue size == 3 , thread: Thread-1 is sleeping
+2015-11-24 13:45:17,407 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/page1.html
+2015-11-24 13:45:17,414 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/page2.html
+2015-11-24 13:45:17,417 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/index.html
+2015-11-24 13:45:17,420 - main - INFO - threadid is :Thread-3 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/page4.html
+2015-11-24 13:45:17,422 - main - INFO - self.queue size == 5 , thread: Thread-2 is sleeping
+2015-11-24 13:45:17,424 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/page3.html
+2015-11-24 13:45:17,432 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html
+2015-11-24 13:45:17,439 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/page4.html
+2015-11-24 13:45:17,441 - main - INFO - self.queue size == 8 , thread: Thread-4 is sleeping
+2015-11-24 13:45:17,455 - main - INFO - self.queue size == 8 , thread: Thread-3 is sleeping
+2015-11-24 13:45:18,408 - main - INFO - threadid is :Thread-5 is working, self.queue size is :7 and the working url is http://pycm.baidu.com:8081/3/page3_2.html
+2015-11-24 13:45:18,410 - main - INFO - threadid is :Thread-1 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/3/image.jpg
+2015-11-24 13:45:18,415 - main - ERROR - url is : http://pycm.baidu.com:8081/3/page3_2.html Error code:404
+2015-11-24 13:45:18,434 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:18,442 - main - INFO - threadid is :Thread-2 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/page1.html
+2015-11-24 13:45:18,445 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/page2.html
+2015-11-24 13:45:18,463 - main - INFO - threadid is :Thread-3 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/2/3/4/index.html
+2015-11-24 13:45:18,490 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/index.html
+2015-11-24 13:45:18,491 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:18,497 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:18,499 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:19,438 - main - INFO - threadid is :Thread-5 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/page3.html
+2015-11-24 13:45:19,491 - main - INFO - self.queue size == 3 , thread: Thread-5 is sleeping
+2015-11-24 13:45:19,497 - main - INFO - threadid is :Thread-2 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/index.html
+2015-11-24 13:45:19,508 - main - INFO - threadid is :Thread-4 is working, self.queue size is :0 and the working url is http://pycm.baidu.com:8081/2/3/4/5/index.html
+2015-11-24 13:45:19,508 - main - INFO - threadid is :Thread-3 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/page4.html
+2015-11-24 13:45:19,520 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:19,537 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:19,538 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/index.html
+2015-11-24 13:45:19,542 - main - INFO - self.queue size == 3 , thread: Thread-4 is sleeping
+2015-11-24 13:45:19,551 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:19,558 - main - INFO - self.queue size == 3 , thread: Thread-3 is sleeping
+2015-11-24 13:45:19,573 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:19,597 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:19,627 - main - INFO - self.queue size == 6 , thread: Thread-2 is sleeping
+2015-11-24 13:45:20,025 - main - INFO - threadid is :1089309024 now saving url :http://pycm.baidu.com:8081/3/image.jpg
+2015-11-24 13:45:20,027 - main - INFO - /home/users/xiaoyizong/good_coder/Python-id-2379/output
+2015-11-24 13:45:20,029 - main - INFO - saving url name is :http:\\pycm.baidu.com:8081\3\image.jpg
+2015-11-24 13:45:20,038 - main - INFO - self.queue size == 6 , thread: Thread-1 is sleeping
+2015-11-24 13:45:20,494 - main - INFO - threadid is :Thread-5 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:20,526 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:20,545 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:20,561 - main - INFO - threadid is :Thread-3 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/index.html
+2015-11-24 13:45:20,581 - main - INFO - self.queue size == 3 , thread: Thread-4 is sleeping
+2015-11-24 13:45:20,582 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html
+2015-11-24 13:45:20,584 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:20,629 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:20,662 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:21,041 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:21,054 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:21,061 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:21,068 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:21,075 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:21,082 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:21,083 - main - INFO - self.queue size == 7 , thread: Thread-1 is sleeping
+2015-11-24 13:45:21,529 - main - INFO - threadid is :Thread-5 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:21,564 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:21,584 - main - INFO - threadid is :Thread-4 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/index.html
+2015-11-24 13:45:21,587 - main - INFO - threadid is :Thread-3 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:21,604 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html
+2015-11-24 13:45:21,606 - main - INFO - self.queue size == 5 , thread: Thread-4 is sleeping
+2015-11-24 13:45:21,622 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:21,665 - main - INFO - threadid is :Thread-2 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:21,699 - main - INFO - self.queue size == 4 , thread: Thread-2 is sleeping
+2015-11-24 13:45:22,086 - main - INFO - threadid is :Thread-1 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:22,120 - main - INFO - self.queue size == 3 , thread: Thread-1 is sleeping
+2015-11-24 13:45:22,566 - main - INFO - threadid is :Thread-5 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:22,578 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:22,584 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:22,590 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:22,597 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:22,603 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:22,605 - main - INFO - self.queue size == 7 , thread: Thread-5 is sleeping
+2015-11-24 13:45:22,609 - main - INFO - threadid is :Thread-4 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:22,624 - main - INFO - threadid is :Thread-3 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/8/index.html
+2015-11-24 13:45:22,644 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/index.html
+2015-11-24 13:45:22,645 - main - INFO - self.queue size == 5 , thread: Thread-4 is sleeping
+2015-11-24 13:45:22,646 - main - INFO - self.queue size == 6 , thread: Thread-3 is sleeping
+2015-11-24 13:45:22,702 - main - INFO - threadid is :Thread-2 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:22,734 - main - INFO - self.queue size == 5 , thread: Thread-2 is sleeping
+2015-11-24 13:45:23,122 - main - INFO - threadid is :Thread-1 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:23,155 - main - INFO - self.queue size == 4 , thread: Thread-1 is sleeping
+2015-11-24 13:45:23,607 - main - INFO - threadid is :Thread-5 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:23,641 - main - INFO - self.queue size == 3 , thread: Thread-5 is sleeping
+2015-11-24 13:45:23,647 - main - INFO - threadid is :Thread-4 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:23,649 - main - INFO - threadid is :Thread-3 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:23,661 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:23,668 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:23,676 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:23,683 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:23,685 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:23,689 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:23,691 - main - INFO - self.queue size == 6 , thread: Thread-4 is sleeping
+2015-11-24 13:45:23,736 - main - INFO - threadid is :Thread-2 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/index.html
+2015-11-24 13:45:23,752 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/index.html
+2015-11-24 13:45:23,754 - main - INFO - self.queue size == 6 , thread: Thread-2 is sleeping
+2015-11-24 13:45:24,157 - main - INFO - threadid is :Thread-1 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:24,193 - main - INFO - self.queue size == 5 , thread: Thread-1 is sleeping
+2015-11-24 13:45:24,644 - main - INFO - threadid is :Thread-5 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:24,676 - main - INFO - self.queue size == 4 , thread: Thread-5 is sleeping
+2015-11-24 13:45:24,688 - main - INFO - threadid is :Thread-3 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:24,698 - main - INFO - threadid is :Thread-4 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:24,712 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:24,718 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:24,727 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:24,727 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:24,734 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:24,741 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:24,742 - main - INFO - self.queue size == 7 , thread: Thread-4 is sleeping
+2015-11-24 13:45:24,757 - main - INFO - threadid is :Thread-2 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:24,790 - main - INFO - self.queue size == 6 , thread: Thread-2 is sleeping
+2015-11-24 13:45:25,195 - main - INFO - threadid is :Thread-1 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/index.html
+2015-11-24 13:45:25,211 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/11/index.html
+2015-11-24 13:45:25,212 - main - INFO - self.queue size == 6 , thread: Thread-1 is sleeping
+2015-11-24 13:45:25,678 - main - INFO - threadid is :Thread-5 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:25,710 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:25,730 - main - INFO - threadid is :Thread-3 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:25,745 - main - INFO - threadid is :Thread-4 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:25,764 - main - INFO - self.queue size == 3 , thread: Thread-3 is sleeping
+2015-11-24 13:45:25,780 - main - INFO - self.queue size == 3 , thread: Thread-4 is sleeping
+2015-11-24 13:45:25,793 - main - INFO - threadid is :Thread-2 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:25,806 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:25,813 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:25,821 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:25,828 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:25,834 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:25,836 - main - INFO - self.queue size == 7 , thread: Thread-2 is sleeping
+2015-11-24 13:45:26,215 - main - INFO - threadid is :Thread-1 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:26,248 - main - INFO - self.queue size == 6 , thread: Thread-1 is sleeping
+2015-11-24 13:45:26,712 - main - INFO - threadid is :Thread-5 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/11/index.html
+2015-11-24 13:45:26,729 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/11/12/index.html
+2015-11-24 13:45:26,731 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:26,767 - main - INFO - threadid is :Thread-3 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:26,783 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:26,802 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:26,818 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:26,839 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:26,871 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:27,251 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:27,263 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:27,271 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:27,277 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:27,283 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:27,290 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:27,292 - main - INFO - self.queue size == 7 , thread: Thread-1 is sleeping
+2015-11-24 13:45:27,733 - main - INFO - threadid is :Thread-5 is working, self.queue size is :6 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:27,767 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:27,805 - main - INFO - threadid is :Thread-3 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/11/12/index.html
+2015-11-24 13:45:27,811 - main - ERROR - url is : http://pycm.baidu.com:8081/2/3/4/5/6/7/8/9/10/11/12/index.html Error code:404
+2015-11-24 13:45:27,813 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:27,821 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:27,853 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:27,873 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:27,907 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:28,294 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:28,326 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:28,770 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:28,782 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:28,788 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:28,794 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:28,801 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:28,808 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:28,810 - main - INFO - self.queue size == 6 , thread: Thread-5 is sleeping
+2015-11-24 13:45:28,815 - main - INFO - threadid is :Thread-3 is working, self.queue size is :5 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:28,848 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:28,856 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:28,890 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:28,909 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:28,939 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:29,329 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:29,360 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:29,812 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:29,825 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:29,831 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:29,838 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:29,844 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:29,851 - main - INFO - threadid is :Thread-3 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:29,853 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:29,855 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:29,886 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:29,893 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:29,927 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:29,942 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:29,973 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:30,363 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:30,399 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:30,857 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:30,870 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:30,876 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:30,882 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:30,891 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:30,892 - main - INFO - threadid is :Thread-3 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:30,901 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:30,903 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:30,926 - main - INFO - self.queue size == 5 , thread: Thread-3 is sleeping
+2015-11-24 13:45:30,930 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:30,963 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:30,975 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:31,008 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:31,401 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:31,433 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:31,905 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:31,919 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:31,925 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:31,929 - main - INFO - threadid is :Thread-3 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:31,932 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:31,940 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:31,947 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:31,949 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:31,966 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:31,968 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:31,999 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:32,011 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:32,045 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:32,436 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:32,469 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:32,952 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:32,965 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:32,971 - main - INFO - threadid is :Thread-3 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:32,973 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:32,980 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:32,987 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:32,993 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:32,996 - main - INFO - self.queue size == 5 , thread: Thread-5 is sleeping
+2015-11-24 13:45:33,003 - main - INFO - threadid is :Thread-4 is working, self.queue size is :4 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:33,012 - main - INFO - self.queue size == 4 , thread: Thread-3 is sleeping
+2015-11-24 13:45:33,037 - main - INFO - self.queue size == 4 , thread: Thread-4 is sleeping
+2015-11-24 13:45:33,048 - main - INFO - threadid is :Thread-2 is working, self.queue size is :3 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:33,082 - main - INFO - self.queue size == 3 , thread: Thread-2 is sleeping
+2015-11-24 13:45:33,472 - main - INFO - threadid is :Thread-1 is working, self.queue size is :2 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:33,505 - main - INFO - self.queue size == 2 , thread: Thread-1 is sleeping
+2015-11-24 13:45:33,999 - main - INFO - threadid is :Thread-5 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:34,012 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html
+2015-11-24 13:45:34,015 - main - INFO - threadid is :Thread-3 is working, self.queue size is :1 and the working url is http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:34,019 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html
+2015-11-24 13:45:34,027 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html
+2015-11-24 13:45:34,034 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html
+2015-11-24 13:45:34,041 - main - WARNING - Thread-4 url:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page1.html exceed max depth 15
+2015-11-24 13:45:34,045 - main - INFO - add url to self.queue:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html
+2015-11-24 13:45:34,045 - main - WARNING - Thread-4 url:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page2.html exceed max depth 15
+2015-11-24 13:45:34,051 - main - WARNING - Thread-4 url:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page3.html exceed max depth 15
+2015-11-24 13:45:34,052 - main - INFO - self.queue size == 2 , thread: Thread-3 is sleeping
+2015-11-24 13:45:34,052 - main - INFO - self.queue size == 3 , thread: Thread-5 is sleeping
+2015-11-24 13:45:34,054 - main - WARNING - Thread-4 url:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/index.html exceed max depth 15
+2015-11-24 13:45:34,056 - main - WARNING - Thread-4 url:http://pycm.baidu.com:8081/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/mirror/page4.html exceed max depth 15
+2015-11-24 13:45:34,057 - main - INFO - now all done , and exiting
